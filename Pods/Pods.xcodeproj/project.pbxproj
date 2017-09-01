@@ -1,0 +1,895 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14CF8CD46F15EE3DAA0B2F4F569B9261 /* DragDropiOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E93A710BDF2EBBC749871CC9DF233D /* DragDropiOS-dummy.m */; };
+		15E48A676EB2814B8D946E2AE4826734 /* Pods-HabboPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A6D1C2CB0B0F8E890FE3C4574398726 /* Pods-HabboPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		233A27610118F059A68EC3F7A53E1F8C /* DragDropManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBF6E44C923F8A3A19B20509B851BB3 /* DragDropManager.swift */; };
+		2E440068741A893DC737B3C7D07458A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		2F4228A3114593875E60E66ACA8E675F /* CZPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = B029B564C2E8A8747C748CB5714BD379 /* CZPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		332A63C8510818C9B7E9016C44465407 /* CZPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B945A974DDDB4391593748CBDA498A /* CZPicker-dummy.m */; };
+		3690A02EC48505F680A11B3FD1038B22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		4C37BB6910CB5AAE9DBE20BF60E73038 /* CZPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FBE34F50455553787D773FBF6CE30FE /* CZPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52FFC66B15923C1386CD94BFC5B56295 /* CZPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2718DBC92CE1318F90519FB1F222275F /* CZPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		605E12560A2C088D9896235022D571BC /* Pods-HabboPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D63C6722FAAAF612112A89701CF247E /* Pods-HabboPlayer-dummy.m */; };
+		629263D0D82E42EF59250E3F82250E5D /* DragDropiOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD955F0814AB7A0556C584B314011ED9 /* DragDropiOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D4C0EA01C43CEE8AC3A87707A00DBFB /* CZPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 504AA099D35B401ADB88BAA66BD9FDA0 /* CZPickerView.m */; };
+		8EF2B6A3B6A968DF982FDEA59DD80A03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		957B4F5C5662AB22BCA4245FCEBE0CFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		9D2D82A4045D1554AB258AA05B2655F4 /* Pods-HabboPlayerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E50929CFB2CFEE1A13D75FD9F2A033 /* Pods-HabboPlayerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFE8D7455E7B2CBFA869F673BD61E5E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		E12CA9AF543EC0D917FD170635590254 /* Pods-HabboPlayerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15101B366B3B09D6FF39554A510E663E /* Pods-HabboPlayerTests-dummy.m */; };
+		F70D3801EDBF6670288F8C2A9FA89BEE /* DragDropCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FAE4EEA61D0319DF21116BD8D5C281 /* DragDropCollectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3188AE01B90595280D6201E149E3C664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90F6299B16DB868E0ADB9D397D7D3940;
+			remoteInfo = DragDropiOS;
+		};
+		A3FDDE44B97682437E9CE3D7AD3CE9FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD0EA4E3DD886BC6C7B27855C4BCD3EC;
+			remoteInfo = CZPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08A317DA46D47924054E8EB25EF310D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D4BDCF1F5EAD32BE43CCEECFEB484B0 /* Pods-HabboPlayerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HabboPlayerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		15101B366B3B09D6FF39554A510E663E /* Pods-HabboPlayerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HabboPlayerTests-dummy.m"; sourceTree = "<group>"; };
+		17D54042D570D201FACB06632A94EE23 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1983BD786800B5DAB448140FCD9D32B9 /* Pods_HabboPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HabboPlayerTests.framework; path = "Pods-HabboPlayerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		222FEAEB05117A3D64117F6A20C07050 /* Pods_HabboPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HabboPlayer.framework; path = "Pods-HabboPlayer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2718DBC92CE1318F90519FB1F222275F /* CZPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZPickerView.h; path = Pod/Classes/CZPickerView.h; sourceTree = "<group>"; };
+		2E1D178F2A3B644A769A8854EE7C3C61 /* Pods-HabboPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HabboPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		30899EDE042F4274CB6CB2DD795CE1C2 /* Pods-HabboPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HabboPlayer.modulemap"; sourceTree = "<group>"; };
+		32656B4707A3F2E43DA36C2BFB8CD8A8 /* DragDropiOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragDropiOS-prefix.pch"; sourceTree = "<group>"; };
+		3DB0981AF40106DD5C839ECE06DB9589 /* CZPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CZPicker.framework; path = CZPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44E93A710BDF2EBBC749871CC9DF233D /* DragDropiOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DragDropiOS-dummy.m"; sourceTree = "<group>"; };
+		4D63C6722FAAAF612112A89701CF247E /* Pods-HabboPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HabboPlayer-dummy.m"; sourceTree = "<group>"; };
+		504AA099D35B401ADB88BAA66BD9FDA0 /* CZPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CZPickerView.m; path = Pod/Classes/CZPickerView.m; sourceTree = "<group>"; };
+		525D8E611428FED7EAE010D85C2C9E24 /* CZPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CZPicker.xcconfig; sourceTree = "<group>"; };
+		5A6D1C2CB0B0F8E890FE3C4574398726 /* Pods-HabboPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HabboPlayer-umbrella.h"; sourceTree = "<group>"; };
+		61E50929CFB2CFEE1A13D75FD9F2A033 /* Pods-HabboPlayerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HabboPlayerTests-umbrella.h"; sourceTree = "<group>"; };
+		6A4466EF7B72F106CE4419DCC43F2330 /* Pods-HabboPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HabboPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B35A1F0046565F4688D475B2703EE6F /* Pods-HabboPlayerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HabboPlayerTests.modulemap"; sourceTree = "<group>"; };
+		6CC8FBDE5F803955A810ABCE74390C14 /* Pods-HabboPlayer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HabboPlayer-resources.sh"; sourceTree = "<group>"; };
+		8AA02872D221821C7526AAD2A97B619D /* Pods-HabboPlayerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HabboPlayerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94898E8741CC99D5D1B8B86FC84331F6 /* Pods-HabboPlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HabboPlayer-acknowledgements.plist"; sourceTree = "<group>"; };
+		965804A16AB60C8801AAA0D0991377E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99FAE4EEA61D0319DF21116BD8D5C281 /* DragDropCollectionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DragDropCollectionView.swift; path = DragDropiOS/Classes/DragDropCollectionView.swift; sourceTree = "<group>"; };
+		9FBE34F50455553787D773FBF6CE30FE /* CZPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CZPicker-umbrella.h"; sourceTree = "<group>"; };
+		A144FAEB745F5E167E052C7C133750CA /* CZPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CZPicker.modulemap; sourceTree = "<group>"; };
+		AD955F0814AB7A0556C584B314011ED9 /* DragDropiOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DragDropiOS-umbrella.h"; sourceTree = "<group>"; };
+		B029B564C2E8A8747C748CB5714BD379 /* CZPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CZPicker.h; path = Pod/Classes/CZPicker.h; sourceTree = "<group>"; };
+		B25A40406DF6BB4DC42152B681F3B46E /* DragDropiOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DragDropiOS.xcconfig; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C42D6896F45BD450266A183E96F9340D /* Pods-HabboPlayerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HabboPlayerTests-resources.sh"; sourceTree = "<group>"; };
+		C6ABE23E27857B5E20D2AB6188AF78C0 /* CZPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CZPicker-prefix.pch"; sourceTree = "<group>"; };
+		CE27E234FBF659FA3A7560CC109D914F /* Pods-HabboPlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HabboPlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D72044AAF120F5BB65378772B4DAEE32 /* Pods-HabboPlayerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HabboPlayerTests-frameworks.sh"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DB711CDE16F8C376134ADC3D4CBE6062 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E559CA29A0185D79891BFC17E212FB24 /* DragDropiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DragDropiOS.framework; path = DragDropiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9939D2934375C9A47221ACCBDC2673D /* Pods-HabboPlayer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HabboPlayer-frameworks.sh"; sourceTree = "<group>"; };
+		ECBF6E44C923F8A3A19B20509B851BB3 /* DragDropManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DragDropManager.swift; path = DragDropiOS/Classes/DragDropManager.swift; sourceTree = "<group>"; };
+		ED58618C515A99DC4C1D7AAD9FEB6BEB /* Pods-HabboPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HabboPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		EE0440C430C1A227C17859F805A7F341 /* Pods-HabboPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HabboPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		F0B945A974DDDB4391593748CBDA498A /* CZPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CZPicker-dummy.m"; sourceTree = "<group>"; };
+		F703EEC28D03752A29110C3001918E56 /* DragDropiOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DragDropiOS.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60204A37797EC701D9923B8AC10C2541 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE8D7455E7B2CBFA869F673BD61E5E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD438E728383A112009766DBFA297FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EF2B6A3B6A968DF982FDEA59DD80A03 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95DB0E868578D3F540673A39673470E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957B4F5C5662AB22BCA4245FCEBE0CFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3F835F7A893A77E388632F6ED66DAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3690A02EC48505F680A11B3FD1038B22 /* Foundation.framework in Frameworks */,
+				2E440068741A893DC737B3C7D07458A5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02CC232A8509F07C431393BF33E4C4D3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A144FAEB745F5E167E052C7C133750CA /* CZPicker.modulemap */,
+				525D8E611428FED7EAE010D85C2C9E24 /* CZPicker.xcconfig */,
+				F0B945A974DDDB4391593748CBDA498A /* CZPicker-dummy.m */,
+				C6ABE23E27857B5E20D2AB6188AF78C0 /* CZPicker-prefix.pch */,
+				9FBE34F50455553787D773FBF6CE30FE /* CZPicker-umbrella.h */,
+				965804A16AB60C8801AAA0D0991377E8 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CZPicker";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		462BD9E516D79DDA11FD4B212F9AE89E /* Pods-HabboPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				17D54042D570D201FACB06632A94EE23 /* Info.plist */,
+				30899EDE042F4274CB6CB2DD795CE1C2 /* Pods-HabboPlayer.modulemap */,
+				CE27E234FBF659FA3A7560CC109D914F /* Pods-HabboPlayer-acknowledgements.markdown */,
+				94898E8741CC99D5D1B8B86FC84331F6 /* Pods-HabboPlayer-acknowledgements.plist */,
+				4D63C6722FAAAF612112A89701CF247E /* Pods-HabboPlayer-dummy.m */,
+				E9939D2934375C9A47221ACCBDC2673D /* Pods-HabboPlayer-frameworks.sh */,
+				6CC8FBDE5F803955A810ABCE74390C14 /* Pods-HabboPlayer-resources.sh */,
+				5A6D1C2CB0B0F8E890FE3C4574398726 /* Pods-HabboPlayer-umbrella.h */,
+				ED58618C515A99DC4C1D7AAD9FEB6BEB /* Pods-HabboPlayer.debug.xcconfig */,
+				EE0440C430C1A227C17859F805A7F341 /* Pods-HabboPlayer.release.xcconfig */,
+			);
+			name = "Pods-HabboPlayer";
+			path = "Target Support Files/Pods-HabboPlayer";
+			sourceTree = "<group>";
+		};
+		4B7D4514E7912B57B0974C643241E115 /* CZPicker */ = {
+			isa = PBXGroup;
+			children = (
+				B029B564C2E8A8747C748CB5714BD379 /* CZPicker.h */,
+				2718DBC92CE1318F90519FB1F222275F /* CZPickerView.h */,
+				504AA099D35B401ADB88BAA66BD9FDA0 /* CZPickerView.m */,
+				02CC232A8509F07C431393BF33E4C4D3 /* Support Files */,
+			);
+			name = CZPicker;
+			path = CZPicker;
+			sourceTree = "<group>";
+		};
+		4BC47A48B648E57FEEFB68EFF7A2BBD4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F703EEC28D03752A29110C3001918E56 /* DragDropiOS.modulemap */,
+				B25A40406DF6BB4DC42152B681F3B46E /* DragDropiOS.xcconfig */,
+				44E93A710BDF2EBBC749871CC9DF233D /* DragDropiOS-dummy.m */,
+				32656B4707A3F2E43DA36C2BFB8CD8A8 /* DragDropiOS-prefix.pch */,
+				AD955F0814AB7A0556C584B314011ED9 /* DragDropiOS-umbrella.h */,
+				08A317DA46D47924054E8EB25EF310D7 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DragDropiOS";
+			sourceTree = "<group>";
+		};
+		524FF3591537AD686165FA4A54DEDC53 /* DragDropiOS */ = {
+			isa = PBXGroup;
+			children = (
+				99FAE4EEA61D0319DF21116BD8D5C281 /* DragDropCollectionView.swift */,
+				ECBF6E44C923F8A3A19B20509B851BB3 /* DragDropManager.swift */,
+				4BC47A48B648E57FEEFB68EFF7A2BBD4 /* Support Files */,
+			);
+			name = DragDropiOS;
+			path = DragDropiOS;
+			sourceTree = "<group>";
+		};
+		5EB21E807CA38F9DCDD535A236747CF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B7D4514E7912B57B0974C643241E115 /* CZPicker */,
+				524FF3591537AD686165FA4A54DEDC53 /* DragDropiOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5EB21E807CA38F9DCDD535A236747CF5 /* Pods */,
+				CC48FB19CEED8BBB3D11544563C7D276 /* Products */,
+				8B784F561BB86CD0D2D82DD29C6F9908 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B784F561BB86CD0D2D82DD29C6F9908 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				462BD9E516D79DDA11FD4B212F9AE89E /* Pods-HabboPlayer */,
+				D1B7AFB001C91DEB813568DE3D5CEC71 /* Pods-HabboPlayerTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CC48FB19CEED8BBB3D11544563C7D276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DB0981AF40106DD5C839ECE06DB9589 /* CZPicker.framework */,
+				E559CA29A0185D79891BFC17E212FB24 /* DragDropiOS.framework */,
+				222FEAEB05117A3D64117F6A20C07050 /* Pods_HabboPlayer.framework */,
+				1983BD786800B5DAB448140FCD9D32B9 /* Pods_HabboPlayerTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D1B7AFB001C91DEB813568DE3D5CEC71 /* Pods-HabboPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB711CDE16F8C376134ADC3D4CBE6062 /* Info.plist */,
+				6B35A1F0046565F4688D475B2703EE6F /* Pods-HabboPlayerTests.modulemap */,
+				8AA02872D221821C7526AAD2A97B619D /* Pods-HabboPlayerTests-acknowledgements.markdown */,
+				0D4BDCF1F5EAD32BE43CCEECFEB484B0 /* Pods-HabboPlayerTests-acknowledgements.plist */,
+				15101B366B3B09D6FF39554A510E663E /* Pods-HabboPlayerTests-dummy.m */,
+				D72044AAF120F5BB65378772B4DAEE32 /* Pods-HabboPlayerTests-frameworks.sh */,
+				C42D6896F45BD450266A183E96F9340D /* Pods-HabboPlayerTests-resources.sh */,
+				61E50929CFB2CFEE1A13D75FD9F2A033 /* Pods-HabboPlayerTests-umbrella.h */,
+				6A4466EF7B72F106CE4419DCC43F2330 /* Pods-HabboPlayerTests.debug.xcconfig */,
+				2E1D178F2A3B644A769A8854EE7C3C61 /* Pods-HabboPlayerTests.release.xcconfig */,
+			);
+			name = "Pods-HabboPlayerTests";
+			path = "Target Support Files/Pods-HabboPlayerTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32E27DF2ADCDB4FE7C9C91E59A498FEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C37BB6910CB5AAE9DBE20BF60E73038 /* CZPicker-umbrella.h in Headers */,
+				2F4228A3114593875E60E66ACA8E675F /* CZPicker.h in Headers */,
+				52FFC66B15923C1386CD94BFC5B56295 /* CZPickerView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4151DB6DA32E70DD89EC276A586AEBE2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629263D0D82E42EF59250E3F82250E5D /* DragDropiOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6E183087749365AB614229FC348BCF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15E48A676EB2814B8D946E2AE4826734 /* Pods-HabboPlayer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C98EEB5343D3CDE39C62A131E7E4281A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2D82A4045D1554AB258AA05B2655F4 /* Pods-HabboPlayerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		90F6299B16DB868E0ADB9D397D7D3940 /* DragDropiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F739D450AFF1C85B3646C43FC7349D7 /* Build configuration list for PBXNativeTarget "DragDropiOS" */;
+			buildPhases = (
+				7B7AABB19E5ED462B2EBDBA5DDDBEF25 /* Sources */,
+				60204A37797EC701D9923B8AC10C2541 /* Frameworks */,
+				4151DB6DA32E70DD89EC276A586AEBE2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragDropiOS;
+			productName = DragDropiOS;
+			productReference = E559CA29A0185D79891BFC17E212FB24 /* DragDropiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F46593C0479FEB935B774AE4738824E /* Pods-HabboPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9455C2059F988745B9EBEBC8BCD7378 /* Build configuration list for PBXNativeTarget "Pods-HabboPlayerTests" */;
+			buildPhases = (
+				EE104C10E9109740FE90401C5B8865BD /* Sources */,
+				BCD438E728383A112009766DBFA297FE /* Frameworks */,
+				C98EEB5343D3CDE39C62A131E7E4281A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HabboPlayerTests";
+			productName = "Pods-HabboPlayerTests";
+			productReference = 1983BD786800B5DAB448140FCD9D32B9 /* Pods_HabboPlayerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B59360625E7ABE0124E5372333AB12A2 /* Pods-HabboPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82C079DB08008FF38D069A877A546883 /* Build configuration list for PBXNativeTarget "Pods-HabboPlayer" */;
+			buildPhases = (
+				0D22F958A5714D4DEBB10811FF5B78D6 /* Sources */,
+				C95DB0E868578D3F540673A39673470E /* Frameworks */,
+				7D6E183087749365AB614229FC348BCF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8275171C26285F95A32E2CD70BE71C9 /* PBXTargetDependency */,
+				61CB45819CC2674B68D952F7F822513F /* PBXTargetDependency */,
+			);
+			name = "Pods-HabboPlayer";
+			productName = "Pods-HabboPlayer";
+			productReference = 222FEAEB05117A3D64117F6A20C07050 /* Pods_HabboPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD0EA4E3DD886BC6C7B27855C4BCD3EC /* CZPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C065AE9FD08F6EF60B88CFD1891993E /* Build configuration list for PBXNativeTarget "CZPicker" */;
+			buildPhases = (
+				1E9E603AEF71CA0350C4A1FA712ED9C9 /* Sources */,
+				CE3F835F7A893A77E388632F6ED66DAC /* Frameworks */,
+				32E27DF2ADCDB4FE7C9C91E59A498FEF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CZPicker;
+			productName = CZPicker;
+			productReference = 3DB0981AF40106DD5C839ECE06DB9589 /* CZPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CC48FB19CEED8BBB3D11544563C7D276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD0EA4E3DD886BC6C7B27855C4BCD3EC /* CZPicker */,
+				90F6299B16DB868E0ADB9D397D7D3940 /* DragDropiOS */,
+				B59360625E7ABE0124E5372333AB12A2 /* Pods-HabboPlayer */,
+				9F46593C0479FEB935B774AE4738824E /* Pods-HabboPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D22F958A5714D4DEBB10811FF5B78D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				605E12560A2C088D9896235022D571BC /* Pods-HabboPlayer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E9E603AEF71CA0350C4A1FA712ED9C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332A63C8510818C9B7E9016C44465407 /* CZPicker-dummy.m in Sources */,
+				6D4C0EA01C43CEE8AC3A87707A00DBFB /* CZPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B7AABB19E5ED462B2EBDBA5DDDBEF25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70D3801EDBF6670288F8C2A9FA89BEE /* DragDropCollectionView.swift in Sources */,
+				14CF8CD46F15EE3DAA0B2F4F569B9261 /* DragDropiOS-dummy.m in Sources */,
+				233A27610118F059A68EC3F7A53E1F8C /* DragDropManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE104C10E9109740FE90401C5B8865BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12CA9AF543EC0D917FD170635590254 /* Pods-HabboPlayerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61CB45819CC2674B68D952F7F822513F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DragDropiOS;
+			target = 90F6299B16DB868E0ADB9D397D7D3940 /* DragDropiOS */;
+			targetProxy = 3188AE01B90595280D6201E149E3C664 /* PBXContainerItemProxy */;
+		};
+		D8275171C26285F95A32E2CD70BE71C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CZPicker;
+			target = FD0EA4E3DD886BC6C7B27855C4BCD3EC /* CZPicker */;
+			targetProxy = A3FDDE44B97682437E9CE3D7AD3CE9FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0799A47213A14676245B4AF15A448287 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A4466EF7B72F106CE4419DCC43F2330 /* Pods-HabboPlayerTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HabboPlayerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HabboPlayerTests/Pods-HabboPlayerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HabboPlayerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0C2A97C795441D161273B685594F189A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE0440C430C1A227C17859F805A7F341 /* Pods-HabboPlayer.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HabboPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HabboPlayer/Pods-HabboPlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HabboPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2CBB6320795E36DB7810354F2F51607F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 525D8E611428FED7EAE010D85C2C9E24 /* CZPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CZPicker/CZPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CZPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CZPicker/CZPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CZPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		338D404F299712F8B630EF99B6544150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B25A40406DF6BB4DC42152B681F3B46E /* DragDropiOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DragDropiOS/DragDropiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DragDropiOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DragDropiOS/DragDropiOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DragDropiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7859B49846A0A374C0171C1013EF862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED58618C515A99DC4C1D7AAD9FEB6BEB /* Pods-HabboPlayer.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HabboPlayer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HabboPlayer/Pods-HabboPlayer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HabboPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE6A460DE36D55DB5F8EBADF7CD368A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E1D178F2A3B644A769A8854EE7C3C61 /* Pods-HabboPlayerTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HabboPlayerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HabboPlayerTests/Pods-HabboPlayerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HabboPlayerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3FE924DD713BE49B7F14BA909B92012 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B25A40406DF6BB4DC42152B681F3B46E /* DragDropiOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DragDropiOS/DragDropiOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DragDropiOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DragDropiOS/DragDropiOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DragDropiOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4B3048B98B5AB002706875EE7552E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 525D8E611428FED7EAE010D85C2C9E24 /* CZPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CZPicker/CZPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CZPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CZPicker/CZPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CZPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C065AE9FD08F6EF60B88CFD1891993E /* Build configuration list for PBXNativeTarget "CZPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B3048B98B5AB002706875EE7552E62 /* Debug */,
+				2CBB6320795E36DB7810354F2F51607F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166E2CAC58E8608AD59A6F0B71C9C3E0 /* Debug */,
+				AA0B5BDEB018901CD8F88AAD05F5B893 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F739D450AFF1C85B3646C43FC7349D7 /* Build configuration list for PBXNativeTarget "DragDropiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				338D404F299712F8B630EF99B6544150 /* Debug */,
+				B3FE924DD713BE49B7F14BA909B92012 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82C079DB08008FF38D069A877A546883 /* Build configuration list for PBXNativeTarget "Pods-HabboPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7859B49846A0A374C0171C1013EF862 /* Debug */,
+				0C2A97C795441D161273B685594F189A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9455C2059F988745B9EBEBC8BCD7378 /* Build configuration list for PBXNativeTarget "Pods-HabboPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0799A47213A14676245B4AF15A448287 /* Debug */,
+				AE6A460DE36D55DB5F8EBADF7CD368A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

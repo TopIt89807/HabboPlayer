@@ -1,0 +1,15 @@
+PODS:
+  - CZPicker (0.4.3)
+  - DragDropiOS (0.1.3)
+
+DEPENDENCIES:
+  - CZPicker
+  - DragDropiOS
+
+SPEC CHECKSUMS:
+  CZPicker: 55aa1751ea26e209814552da1a9a08cba8bbf72a
+  DragDropiOS: 13276d44ab1e3e7c8606cc6be1aa8026fce2292a
+
+PODFILE CHECKSUM: 9c8cc2f9e745a30aafff6b89af1ff0c684c2f0c1
+
+COCOAPODS: 1.2.1

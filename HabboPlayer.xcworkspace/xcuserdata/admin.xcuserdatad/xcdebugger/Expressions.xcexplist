@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ViewController.someAction(UITapGestureRecognizer) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.model.imageName[2]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.updateDisplay() -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentRect.x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.collectionView(UICollectionView, dropCompleteWithDragInfo : AnyObject, atDragIndexPath : IndexPath?, withDropInfo : AnyObject?, atDropIndexPath : IndexPath) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "models[dropIndexPath.item].text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.czpickerView(CZPickerView!, didConfirmWithItemAtRow : Int) -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.pickerView1">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.viewDidLoad() -&gt; ():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.model.length">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.collectionView(UICollectionView, canDropWithDragInfo : AnyObject, AtIndexPath : IndexPath) -&gt; Bool:ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.model">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
